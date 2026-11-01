@@ -1,0 +1,41 @@
+# Dependencies and build output
+node_modules
+dist
+dist-ssr
+coverage
+
+# Environment files and secrets — never commit these
+.env
+.env.*
+!.env.example
+*.local
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+id_rsa*
+credentials*.json
+secrets*.json
+service-account*.json
+
+# Hosting / tooling state
+.vercel
+.netlify
+
+# Test artefacts
+e2e/screenshots
+test-results
+playwright-report
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editors and OS
+.DS_Store
+Thumbs.db
+.idea
+.vscode/*
+!.vscode/extensions.json
+*.swp
